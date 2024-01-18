@@ -1,0 +1,100 @@
+body{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin: 20px;
+    background-color: rgb(101, 117, 156);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pay , .pay-frame{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pay-frame{
+    border: 1px solid #e0e0e0;
+}
+
+
+
+
+.details{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+
+.line{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.navigation{
+    display: flex;
+    /* justify-content: flex-start; */
+    width: 100%;
+    margin: 20px 0;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    float: right;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.navigation a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navigation a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 10px;
+  }
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    height: min-content;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.product img{
+    /* height should be the same as the height of the product div */
+    position: relative;
+    top: 60px;
+    width: 210px;    
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
